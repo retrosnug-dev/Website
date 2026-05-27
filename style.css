@@ -49,13 +49,20 @@ html {
   box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 
-/* Mobile fix (stacks vertically) */
-@media (max-width: 768px) {
+/* Mobile fix */
+@media (max-width: 900px) {
   .home-layout {
     flex-direction: column;
     text-align: center;
   }
 }
+@media (max-width: 900px) {
+  .sidebar {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
 
 body {
   font-family: "Poppins", sans-serif;
